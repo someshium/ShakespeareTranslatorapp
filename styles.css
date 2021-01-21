@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+:root{
+    --primary-yellow: cyan;
+    --dark: #4B5563;
+    --of-white:#E5E7EB;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0rem;
+    
+}
+
+header{
+    height: 2rem;
+    background-color: var(--primary-yellow);
+}
+
+.container{
+background-image: url("shakes.png");
+padding: 2rem 1rem ;
+text-align: center;
+border-radius: 0.5rem;
+
+
+
+}
+
+.heading{
+    color: var(--primary-yellow);
+    text-align: center;
+}
+
+
+textarea{
+
+    display: block;
+    width: 450px;
+    margin: auto;
+    margin-top:3rem;
+    margin-bottom: 2rem;
+    border: 2px solid var(--dark);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+  
+}
+
+#btn-translator{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-yellow);
+    border-radius: 0.5rem; 
+    color: white;
+
+}
+
+footer{
+    height: 2rem;
+    background-color: var(--primary-yellow);
+    text-align: center;
+}
+
+
